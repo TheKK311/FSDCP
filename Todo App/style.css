@@ -1,0 +1,80 @@
+/* Apply margin and padding reset to all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the upper section */
+.up {
+    background-color: coral; /* Background color */
+    text-align: center; /* Align text to the center */
+    padding: 20px; /* Add padding */
+}
+
+/* Style for the heading */
+h1 {
+    margin-bottom: 20px; /* Add bottom margin */
+}
+
+/* Apply margin to the inner div within .up */
+.up div {
+    margin: 50px;
+}
+
+/* Placeholder text style */
+::placeholder {
+    color: blue; /* Placeholder text color */
+    padding-left: 10px; /* Add left padding */
+}
+
+/* Style for input field */
+input[type=text] {
+    border: 1px solid #efc9af; /* Border style */
+    height: 50px; /* Set height */
+    width: 70%; /* Set width */
+    margin-bottom: 50px; /* Add bottom margin */
+    border: none; /* Remove default border */
+}
+
+/* Style for buttons */
+button {
+    height: 50px; /* Set height */
+    width: 40px; /* Set width */
+    border: none; /* Remove default border */
+}
+
+/* Style for list items */
+li {
+    background-color: rgba(192, 173, 173, 0.779); /* Background color */
+    height: 50px; /* Set height */
+    margin: 10px; /* Add margin */
+    padding: 5px; /* Add padding */
+    font-family: sans-serif; /* Set font family */
+    font-size: 2rem; /* Set font size */
+}
+
+/* Style for the "Done" button */
+.done {
+    border-radius: 50%; /* Apply border radius */
+    margin-left: 50px; /* Add left margin */
+    float: right; /* Float right */
+    background-color: #00ff00; /* Background color */
+}
+
+/* Style for the "Edit" button */
+.edit {
+    border-radius: 50%; /* Apply border radius */
+    margin-left: 50px; /* Add left margin */
+    float: right; /* Float right */
+    background-color: yellow; /* Background color */
+    color: blue; /* Text color */
+}
+
+/* Style for the "Remove" button */
+.remove {
+    border-radius: 50%; /* Apply border radius */
+    margin-left: 50px; /* Add left margin */
+    float: right; /* Float right */
+    background-color: red; /* Background color */
+    color: blue; /* Text color */
+}
