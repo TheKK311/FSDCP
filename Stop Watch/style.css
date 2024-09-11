@@ -1,0 +1,66 @@
+/* Define root variables */
+:root {
+    --bgcolor: rgb(100, 100, 244); /* Background color variable */
+}
+
+/* Apply margin, padding, and box-sizing reset to all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Uncomment the following line to use the background color variable */
+    /* background-color: var(--bgcolor); */
+}
+
+/* Main container styles */
+.main {
+    display: flex; /* Display as flex container */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    background-color: #ff00ff;
+}
+
+/* Styles for the upper section */
+.upper {
+    margin: 60px; /* Add margin */
+    
+   
+    
+}
+
+/* Styles for the timer area */
+.timerArea {
+    display: flex; /* Display as flex container */
+    justify-content: center; /* Center content horizontally */
+    text-align: center; /* Center text */
+    align-items: center; /* Center content vertically */
+    height: 280px; /* Set height */
+    width: 280px; /* Set width */
+    border-radius: 50%; /* Make circular */
+    box-shadow: 0 0 10px rgb(47, 117, 47); /* Add shadow */
+    /* Uncomment the following line to use a specific background color */
+    background-color: rgb(38, 38, 76); 
+    color:white;
+}
+
+/* Timer display styles */
+#timer {
+    color: rgb(47, 47, 212); /* Set color */
+}
+
+/* Styles for the lower section */
+.lower {
+    position: relative; /* Set position relative */
+}
+
+/* Button styles */
+.lower button {
+    height: 40px; /* Set height */
+    width: 100px; /* Set width */
+    margin: 15px; /* Add margin */
+    border-radius: 20px; /* Add border radius */
+    font-family: sans-serif; /* Set font family */
+    border: 2px solid whitesmoke; /* Set border */
+    gap: 50px; /* Set gap between elements */
+}
